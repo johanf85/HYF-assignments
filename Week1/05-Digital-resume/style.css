@@ -50,10 +50,6 @@ div.itemvalue {
   padding: 0.5rem 0;
 }
 
-div.itemwithicon {
-  display: inline;
-}
-
 .faicon::before {
   font-family: FontAwesome;
   margin-right: 1rem;
@@ -66,6 +62,7 @@ span.itemwithicon.email::before {
 
 span.itemwithicon.phone::before {
   content: "\f10b";
+  font-size: 2.2rem;
 }
 
 div.itemname.city::before {
@@ -87,6 +84,11 @@ h2.educationexperience::before {
 div.itemname {
   max-width: 20rem;
   width: 100%;
+}
+
+.itemwithicon {
+  margin: 1rem 0.5rem 1rem 0;
+  display: inline-block;
 }
 
 img.profilephoto {
