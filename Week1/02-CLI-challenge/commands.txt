@@ -1,0 +1,21 @@
+1. Creating a hidden folder
+
+Command:
+mkdir .foldername
+
+Display the folder in CLI
+
+Command:
+ls -a
+
+2. Creating nested directories
+
+Command:
+mkdir -p this/is/a/nested/folder
+
+3. Appending text a file
+
+Commands:
+
+echo "first message" >> filename
+echo "second message" >> filename 
