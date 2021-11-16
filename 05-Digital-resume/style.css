@@ -60,12 +60,12 @@ div.itemwithicon {
   color: #000;
 }
 
-div.itemwithicon.email::before {
+span.itemwithicon.email::before {
   content: "\f0e0";
 }
 
-div.itemwithicon.phone::before {
-  content: "\f3cd";
+span.itemwithicon.phone::before {
+  content: "\f10b";
 }
 
 div.itemname.city::before {
