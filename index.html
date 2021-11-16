@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My digital Resume</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1>My digital Resume</h1>
+            <p>
+                <img class="profilephoto" src="photo.jpeg">
+            </p>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <h2 class="faicon aboutme">About</h2>
+            <!-- Am using divs here and not a table because of less CSS to be set and better responsive behaviour -->
+            <div class="itemname">Name:</div>
+            <div class="itemvalue">Johnny Rep</div><br>
+            <div class="itemname">Age:</div>
+            <div class="itemvalue">35</div><br>
+            <div class="itemname">City:</div>
+            <div class="itemvalue">Amsterdam</div><br>
+            <div class="itemname">Place of birth:</div>
+            <div class="itemvalue">Hoorn</div><br>
+            <div class="itemwithicon faicon email">&nbsp;</div>
+            <div class="itemvalue"><a href="mailto:johnnyrep@email.address">johnnyrep@email.address</a></div><br>
+            <h2 class="faicon workexperience">Past working experience</h2>
+            <ul class="experiencelist">
+                <li> Company: <a href="https://www.verzekervoordelig.nl" target="_blank">VerzekerVoordelig.nl</a>
+                    <br>
+                    <ul>
+                        <li> Function: Maintaining website, some front-end development, system engineer <br>
+                        </li>
+                        <li>City: Bovenkarspel</li>
+                    </ul>
+                </li>
+                <li> Company: de Bijenkorf<br>
+                    <ul>
+                        <li> Function: Waiting tables at restaurent <br>
+                        </li>
+                        <li>City: Utrecht</li>
+                    </ul>
+                </li>
+            </ul>
+            <h2 class="faicon educationexperience">Education</h2>
+            <ul class="educationlist">
+                <li> HBO (University of applied sciences)<br>
+                    <ul>
+                        <li> Chemical Engineering </li>
+                        <li>City: Utrecht</li>
+                    </ul>
+                </li>
+                <li> Scholengemeenschap Werenfridus<br>
+                    <ul>
+                        <li> Level: VWO (Secondary school form prepairing for academic education) <br>
+                        </li>
+                        <li>City: Hoorn</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper"></div>
+    </footer>
+</body>
+
+</html>

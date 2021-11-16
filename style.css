@@ -1,0 +1,116 @@
+html {
+  font-size: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-size: 1.8rem;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 100rem;
+}
+
+header,
+main,
+footer {
+  padding: 2rem 0;
+}
+
+header {
+  background-color: #b3cddf;
+}
+
+main {
+  background-color: #c6dee5;
+}
+
+footer {
+  background-color: #daeeea;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {
+  margin-top: 5rem;
+  font-size: 3.8rem;
+}
+
+div.itemname,
+div.itemvalue {
+  display: inline-block;
+  padding: 0.5rem 0;
+}
+
+div.itemwithicon {
+  display: inline;
+}
+
+.faicon::before {
+  font-family: FontAwesome;
+  margin-right: 1rem;
+  color: #000;
+}
+
+div.itemwithicon.email::before {
+  content: "\f0e0";
+}
+
+div.itemwithicon.phone::before {
+  content: "\f3cd";
+}
+
+div.itemname.city::before {
+  content: "\f3c5";
+}
+
+h2.aboutme::before {
+  content: "\f007";
+}
+
+h2.workexperience::before {
+  content: "\f0b1";
+}
+
+h2.educationexperience::before {
+  content: "\f19d";
+}
+
+div.itemname {
+  max-width: 20rem;
+  width: 100%;
+}
+
+img.profilephoto {
+  width: 300px;
+  border: 10px solid #fff;
+  box-shadow: 0px 0px 10px -1px #565656;
+}
+
+ul.experiencelist,
+ul.educationlist {
+  margin-bottom: 5rem;
+  padding-left: 0;
+}
+
+ul.experiencelist > li,
+ul.educationlist > li {
+  margin-bottom: 3rem;
+}
+
+li {
+  padding-top: 2rem;
+}
+
+ul li {
+  list-style-type: none;
+  margin-left: 0;
+}
